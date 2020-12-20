@@ -112,22 +112,7 @@ const members = [
       },
 
       {
-        name: 'Sandra Adell',
-        position: 'Jóvenes',
-      },
-
-      {
-        name: 'Daniel Rodríguez',
-        position: 'Jóvenes',
-      },
-
-      {
-        name: 'Álvaro López',
-        position: 'Jóvenes',
-      },
-
-      {
-        name: 'Marius Cuadrat',
+        name: 'Sandra Adell, Daniel Rodríguez, Álvaro López y Marius Cuadrat',
         position: 'Jóvenes',
       },
 
@@ -142,14 +127,31 @@ const members = [
       },
 
       {
-        name: 'Paco Vázquez',
-        position: 'Designación Torneos Hockey Hierba',
+        name: 'Paco Vázques, Juanma Requena y Antonio Morales',
+        position: 'Seguimiento y Análisis Partidos',
+      },
+
+    ]
+  },
+
+  {
+    title: 'Designaciones',
+    members: [
+      {
+        name: 'Eduardo Lizana, Monica Rivera y Antonio Morales',
+        position: 'Ligas',
       },
 
       {
-        name: 'Andrés Ortiz',
-        position: 'Designación Torneos Hockey Sala',
+        name: 'Paco Vázquez, Juanma Requena, Vicente Villanueva y Antonio Morales',
+        position: 'Torneos Hierba',
       },
+
+      {
+        name: 'Andrés Ortiz, Juanma Requena, Vicente Villanueva y Antonio Morales',
+        position: 'Torneos Sala',
+      },
+
     ]
   },
 

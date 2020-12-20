@@ -28,7 +28,7 @@ const CardContainer = styled.div`
 
 const DirectorsCard = styled.div`
   position: relative;
-  width: 200px;
+  width: ${({big}) => (big) ? '400px' : '200px'};
   min-height: 75px;
   cursor: pointer;
   margin: 5px;
@@ -107,6 +107,7 @@ function HomeContainer() {
                   <DirectorsCard
                     key={director.name}
                     className="general-shadow"
+                    big={!(director.picture)}
                     onMouseEnter={e => showText(e, true)}
                     onMouseLeave={e => showText(e, false)}>
                     {director.picture ? (<DirectorsImage image={director.picture} />) : ''}
