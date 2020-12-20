@@ -100,6 +100,16 @@ const members = [
         ]
       },
 
+      {
+        name: 'Gema Calderón',
+        position: 'Seguimiento y control económico',
+        picture: 'gema_calderon.jpg',
+        text: [
+          'Nacida en Málaga, pero residente en Madrid.',
+          'Actualmente, estoy ligada al hockey como árbitro internacional, aunque también soy jugadora en 2nda división de Madrid.',
+        ]
+      },
+
     ]
   },
 
@@ -107,28 +117,23 @@ const members = [
     title: 'Proyectos Transversales',
     members: [
       {
-        name: 'Jorge Martín',
-        position: 'Tecnología',
+        name: 'Tecnología',
+        position: 'Jorge Martín',
       },
 
       {
-        name: 'Sandra Adell, Daniel Rodríguez, Álvaro López y Marius Cuadrat',
-        position: 'Jóvenes',
+        name: 'Jóvenes',
+        position: 'Sandra Adell, Daniel Rodríguez, Álvaro López y Marius Cuadrat',
       },
 
       {
-        name: 'Gema Calderón',
-        position: 'Seguimiento y control económico',
+        name: 'Relación Presidentes Comités Árbitros FFTT',
+        position: 'Juan Martínez',
       },
 
       {
-        name: 'Juan Martínez',
-        position: 'Relación Presidentes Comités Árbitros FFTT',
-      },
-
-      {
-        name: 'Paco Vázques, Juanma Requena y Antonio Morales',
-        position: 'Seguimiento y Análisis Partidos',
+        name: 'Seguimiento y Análisis Partidos',
+        position: 'Paco Vázquez, Juanma Requena y Antonio Morales',
       },
 
     ]
@@ -138,18 +143,23 @@ const members = [
     title: 'Designaciones',
     members: [
       {
-        name: 'Eduardo Lizana, Monica Rivera y Antonio Morales',
-        position: 'Ligas',
+        name: 'Ligas',
+        position: 'Eduardo Lizana, Monica Rivera y Antonio Morales',
       },
 
       {
-        name: 'Paco Vázquez, Juanma Requena, Vicente Villanueva y Antonio Morales',
-        position: 'Torneos Hierba',
+        name: 'Torneos Hierba',
+        position: 'Paco Vázquez, Juanma Requena, Vicente Villanueva y Antonio Morales',
       },
 
       {
-        name: 'Andrés Ortiz, Juanma Requena, Vicente Villanueva y Antonio Morales',
-        position: 'Torneos Sala',
+        name: 'Torneos Sala',
+        position: 'Andrés Ortiz, Juanma Requena, Vicente Villanueva y Antonio Morales',
+      },
+
+      {
+        name: 'Internacional',
+        position: 'Ejecutiva',
       },
 
     ]
