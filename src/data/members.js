@@ -53,9 +53,7 @@ const members = [
         name: 'Juanma Requena',
         position: 'Formación Managers',
         picture: 'juanma_requena.jpg',
-        text: [
-          'loremIpsum',
-        ]
+        text: []
       },
 
       {
@@ -122,13 +120,23 @@ const members = [
       },
 
       {
+        name: 'Comunicación',
+        position: 'Sandra Adell y Álvaro López',
+      },
+
+      {
         name: 'Jóvenes',
-        position: 'Sandra Adell, Daniel Rodríguez, Álvaro López y Marius Cuadrat',
+        position: 'Daniel Rodríguez, Marius Cuadrat y Ana Ortega',
       },
 
       {
         name: 'Relación Presidentes Comités Árbitros FFTT',
         position: 'Juan Martínez',
+      },
+
+      {
+        name: 'Condición Física',
+        position: 'Rubén Rodríguez y Adrián Morales',
       },
 
       {
@@ -144,17 +152,17 @@ const members = [
     members: [
       {
         name: 'Ligas',
-        position: 'Eduardo Lizana, Monica Rivera y Antonio Morales',
+        position: 'Eduardo Lizana, (Monica Rivera y Antonio Morales)',
       },
 
       {
         name: 'Torneos Hierba',
-        position: 'Paco Vázquez, Juanma Requena, Vicente Villanueva y Antonio Morales',
+        position: 'Paco Vázquez, (Juanma Requena, Vicente Villanueva y Antonio Morales)',
       },
 
       {
         name: 'Torneos Sala',
-        position: 'Andrés Ortiz, Juanma Requena, Vicente Villanueva y Antonio Morales',
+        position: 'Andrés Ortiz, (Juanma Requena, Vicente Villanueva y Antonio Morales)',
       },
 
       {
