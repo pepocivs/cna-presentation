@@ -53,7 +53,44 @@ const members = [
         name: 'Juanma Requena',
         position: 'Formación Managers',
         picture: 'juanma_requena.jpg',
-        text: []
+        text: [
+        'Entrenador Nacional de hockey RFEH y FIH L1',
+        'Participación competiciones nacionales sala/hierba.',
+        '<div class="directors-quote">(Muchas horas en los campos de hockey “conexionando” para aprender cada día...)</div>',
+        'Arbitro Internacional Grado 1 (1992-2011)',
+        [
+          [
+            'Hockey sala 50 caps absolutos/ 62 partidos internacionales.',
+            'Hockey hierba 77 caps absolutos/ 110 partidos internacionales.'
+          ]
+        ],
+        [
+          '3 Mundiales Indoor /7 Europeos naciones absolutos /7 Europeos clubes/3 Europeos Junior.',
+          '4 Europeos naciones absolutos hierba / Champions Trophy / Clasificación Olimpiada / Clasificación Mundial /Champions Challenge/ Copa África.',
+          '2 Mundiales Junior/ 2 Europeos Junior/ Panamericano Junior. ',
+          'EHL Rounds 2-3, KO16, Final 4 / 2 Hamburg Master/ Azlan Shah.'
+        ],
+        
+        '<div class="directors-quote">(Aplicando lo aprendido...)</div>',
+        'Manager de Arbitro Grado 1 FIH/EHF (2011 – en activo)',
+        [
+          [
+            'Hockey sala 6 Torneos internacionales oficiales.',
+            'Hockey hierba 17 Torneos internacionales oficiales.'
+          ]
+        ],
+        [
+          '3 Copas de Europas de Naciones absolutas hierba / 1 Copa de Europa Naciones en sala.',
+          '3 Copas de Europa de Naciones Junior hierba / 2 de hockey en sala.',
+          'World League Round 1, 2 y Semifinal.',
+          '2012 Sultan of Johor Cup / Sultan Azlan Shah Cup 2015',
+          'Juegos Bolivarianos / Investic Cup London / Arabic Nations / ',
+          'Panamericanos de hockey en sala.',
+          'EHL'
+        ],
+        '<div class="directors-quote">(Transmitiendo lo aprendido...)</div>',
+        '<div class="directors-quote">La constancia en el aprendizaje da sus frutos, los éxitos no son casualidad, es trabajo...<div>'
+        ]
       },
 
       {
@@ -136,7 +173,7 @@ const members = [
 
       {
         name: 'Condición Física',
-        position: 'Rubén Rodríguez y Adrián Morales',
+        position: 'Rubén Rodríguez, Adrián Morales y Noelia Blanco',
       },
 
       {

@@ -4,6 +4,10 @@ import styled from "styled-components";
 /** Data */
 import members from "data/members";
 
+const Felicitacion = styled.img`
+  width: 100%;
+`;
+
 const DirectorsContainer = styled.div`
   width: calc(100% - 180px);
   margin: auto;
@@ -95,7 +99,8 @@ function printText(description, padding = 0) {
 function HomeContainer() {
   return (
     <DirectorsContainer id="cna-directors-container">
-      <h1>Composición CNA</h1>
+      <Felicitacion src="/assets/images/felicitacion.jpg" alt="Felicitación CNA" />
+      <h1>Os presentamos la composición del nuevo CNA</h1>
       {
         members.map(section => (
           <div key={section.title}>
