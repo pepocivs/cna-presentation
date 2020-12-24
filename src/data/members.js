@@ -189,7 +189,7 @@ const members = [
     members: [
       {
         name: 'Ligas',
-        position: 'Eduardo Lizana, (Monica Rivera y Antonio Morales)',
+        position: 'Eduardo Lizana, Vicente Villanueva, (Monica Rivera y Antonio Morales)',
       },
 
       {
@@ -205,6 +205,17 @@ const members = [
       {
         name: 'Internacional',
         position: 'Ejecutiva',
+      },
+
+    ]
+  },
+
+  {
+    title: 'Administración',
+    members: [
+      {
+        name: 'Secretario Administrativo',
+        position: 'José Ramón Canalejas',
       },
 
     ]
