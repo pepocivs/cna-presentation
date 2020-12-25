@@ -58,6 +58,10 @@ const DirectorsText = styled.div`
   opacity: 0.95;
   padding: 5px;
   animation: fadein 1s;
+  @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
+    width: calc(100% + 150px);
+    left: -75px;
+  }
 `;
 
 const DirectorsLine = styled.p`

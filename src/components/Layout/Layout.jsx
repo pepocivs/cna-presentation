@@ -36,7 +36,8 @@ const MainContainer = styled.div`
     grid-template-columns: ${({theme}) => `1fr ${theme.breakpoints.desktop}px 1fr`};
   }
   @media (max-width: ${({theme}) => theme.breakpoints.tablet}px) {
-    grid-template-columns: 0px 1fr 0px;
+    grid-template-columns: 0px 100% 0px;
+    grid-gap: 0px;
   }
 `;
 
@@ -88,6 +89,7 @@ function Layout({ location }) {
         <link rel="shortcut icon" href='/assets/logo.png' />
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="description" content="Comité Nacional de Árbitros (CNA) - Real Federación Española de Hockey" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <title>Comité Nacional de Árbitros (CNA) - RFEH</title>
       </Helmet>
       <MainContainer>
