@@ -104,7 +104,7 @@ function Layout({ location }) {
                 >
                 <div>
                   <Switch location={location}>
-                    <Route exact path="/" component={getComponentByRoute('inicio')} />
+                    <Route exact path="/:lang?" component={getComponentByRoute('inicio')} />
                     <Route component={NotFound} />
                   </Switch>
                 </div>

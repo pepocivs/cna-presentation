@@ -1,8 +1,15 @@
 import React from "react";
+import { withRouter } from "react-router";
 import styled from "styled-components";
 
 /** Data */
-import members from "data/members";
+import membersEs from "data/members";
+import membersEn from "data/members_en";
+
+const members = {
+  es: membersEs,
+  en: membersEn,
+}
 
 const Felicitacion = styled.img`
   width: 100%;
@@ -100,13 +107,15 @@ function printText(description, padding = 0) {
   ) : null;
 }
 
-function HomeContainer() {
+function HomeContainer({ match }) {
+  const lang = match.params.lang === 'en' ? 'en' : 'es';
+  const title = lang === 'es' ? 'Os presentamos la composición del nuevo CNA' : 'We introduce you the new CNA composition';
   return (
     <DirectorsContainer id="cna-directors-container">
-      <Felicitacion src="/assets/images/felicitacion.jpg" alt="Felicitación CNA" />
-      <h1>Os presentamos la composición del nuevo CNA</h1>
+      {lang === 'es' ? (<Felicitacion src="/assets/images/felicitacion.jpg" alt="Felicitación CNA" />) : ''}
+      <h1>{title}</h1>
       {
-        members.map(section => (
+        members[lang].map(section => (
           <div key={section.title}>
             <SectionTitle>{section.title}</SectionTitle>
             <SectionTitleBorder />
@@ -142,4 +151,4 @@ function HomeContainer() {
   )
 }
 
-export default HomeContainer;
+export default withRouter(HomeContainer);
